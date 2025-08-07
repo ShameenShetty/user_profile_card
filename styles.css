@@ -1,0 +1,6 @@
+.container {
+    width: 98%;
+    height: 95vh;
+    border: 4px solid rgb(16, 174, 176);
+    margin: 10px;
+}
