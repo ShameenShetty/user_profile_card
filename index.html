@@ -6,27 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Profile Card</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
 </head>
 
 <body>
-    <!-- container div containing the blue border -->
     <div class="container">
-        <!-- 
+        <!-- border-container div containing the blue border -->
+        <div class="border-container">
+            <!-- 
         Container containing card which has 2 main sections -
         left section with the user image & info
         right section with the links
         -->
-        <div style="display: flex;">
-            <!-- First section Card containing img and info -->
-            <div style="width: 60%; background-color: red;">
-                TEST
+
+            <!-- First section Card containing img section and info section-->
+            <div class="card-container">
+                <!-- Image section containing two parts - name and job -->
+                <div class="image-section">
+                    <img class="rounded-corners" src="./images/profile_image.png" alt="Profile Image"
+                        style="height: 220px; width: 200px;">
+                    <p>Coding Cat</p>
+                    <p>Flutter & FullStack Developer</p>
+
+                </div>
+
+                <!-- Information section with 3 parts - Info, Projects, and Social Media Links -->
+                <div class="info-section">
+                    <!-- Information -->
+                    <h2 style="font-family: Helvetica, sans-serif; font-style: italic;">Information</h2>
+                    <hr>
+
+                    <h3>Email</h3>
+                    <p>codingCat@programming.com</p>
+
+                    <h3>Phone</h3>
+                    <p>123-456-789</p>
+
+
+                    <!-- Empty div for padding -->
+                    <div style="height: 30px;"></div>
+
+
+                    <!-- Projects -->
+                    <h2 style="font-family: Helvetica, sans-serif; font-style: italic;">Projects</h2>
+                    <hr>
+
+                    <h3>Recent</h3>
+                    <p>Full Stack Project</p>
+
+                    <h3>Most Viewed</h3>
+                    <p>Flutter Project</p>
+
+                    <!-- Empty div for padding -->
+                    <div style="height: 30px;"></div>
+
+                    <!-- Social Media Links -->
+                    <div class="social-media-links">
+                        <div class="logo">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+
+                        <div class="logo">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+
+                        <div class="logo">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Second section containing the links -->
-            <div style="width: 40%; background-color: blue;">
-                TEST2
+            <div class="links-section">
+
             </div>
         </div>
+
     </div>
 </body>
 
